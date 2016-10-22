@@ -1,0 +1,56 @@
+<div class="navbar-default sidebar" role="navigation">
+    <div id="menuToCollapse" class="sidebar-nav navbar-collapse collapse">
+        <ul class="nav in" id="side-menu" >
+            <!-- <sidebar-search></sidebar-search> -->
+            <li ui-sref-active="active">
+                <a ui-sref="dashboard.profile" ng-click="collapseMenu()"><i class="fa fa-user fa-fw"></i> Company Profile</a>
+            </li>
+            <!-- <li ui-sref-active="active">
+            <a ui-sref="dashboard.home" ng-click="collapseMenu()"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+            </li> -->
+            <li ui-sref-active="active">
+                <a ui-sref="dashboard.reports" ng-click="collapseMenu()"><i class="fa fa-area-chart fa-fw"></i> Reports</a>
+            </li>
+
+            <li class="no-border" id="surveys" ng-class="{active: collapseVar==2}">{{dropDown}}
+                <a href="" ng-click="check(2)"><i class="fa fa-edit fa-fw"></i>Survey <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=2">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section1" ng-click="collapseMenu()"><i class="fa fa-check fa-1x text-success  pull-right"></i> Section 1</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section2" ng-click="collapseMenu()"><i class="fa fa-check fa-1x text-success  pull-right"></i> Section 2</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section3" ng-click="collapseMenu()"><i class="fa fa-check fa-1x text-success  pull-right"></i> Section 3</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section4" ng-click="collapseMenu()"><i class="fa fa-check fa-1x text-success  pull-right"></i> Section 4</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section5" ng-click="collapseMenu()"><i class="fa fa-times fa-1x text-danger pull-right"></i> Section 5</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section6" ng-click="collapseMenu()"><i class="fa fa-times fa-1x text-danger  pull-right"></i> Section 6</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.section7" ng-click="collapseMenu()"><i class="fa fa-times fa-1x text-danger  pull-right"></i> Section 7</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li ui-sref-active="active">
+                <a ui-sref="dashboard.terms" ng-click="collapseMenu()"><i class="fa fa-navicon fa-fw"></i>Terms and Definitions</a>
+            </li>
+
+            <li ui-sref-active="active">
+                <a ui-sref="dashboard.about" ng-click="collapseMenu()"><i class="fa fa-building-o fa-fw"></i>About</a>
+            </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+

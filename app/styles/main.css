@@ -1,0 +1,205 @@
+/* Space out content a bit */
+body {
+    padding-bottom: 20px;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+#wrapper{
+  background-color: #dddad4;
+}
+#headerNotification{
+  color: #179b7f;
+}
+#headerNotification:hover{
+  color: #d9534f;
+  /*border-right: none;*/
+}
+
+#tablePadding td{
+/*padding:2%;*/
+}
+
+a{
+  color: #179b7f;
+  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  padding: 10px;
+}
+#about{
+  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 150%;
+  color: #179b7f;
+}
+#terms{
+  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 130%;
+}
+#termsh{
+  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  color: #179b7f;
+  font-weight: bold;
+  font-size: 140%;
+}
+#side-menu li.active>a{
+  color: #d9534f !important;
+}
+li#surveys>a{
+  color: #2EA07E !important;
+}
+
+li#surveys.active>a{
+  color: #2EA07E !important;
+}
+#side-menu li>a:hover{
+  color: #2EA07E;
+  border-right: solid #b0aa9b 5px;
+}
+
+#side-menu li.active>a:hover{
+  border: none;
+}
+
+#side-menu li.no-border{
+  border: none !important;
+}
+
+ #side-menu li.active{
+  color: #d9534f !important; 
+  font-weight: bold;
+  font-size: 110%;
+  border-right: solid #d9534f 5px;
+}
+#side-menu a:focus, #side-menu a:active{
+  color: #2EA07E !important;
+}
+#myicon .widget-title:before {
+    content: url('./images/footprints.png');
+}
+
+#select-activity .selected{
+color: #179b7f;
+font-weight: bold;
+}
+nav.navbar-default{
+  background-color: #dddad4;
+}
+
+div.navbar-default{
+  background-color: #dddad4;
+}
+a.fa:hover{
+   font-size: 120%;
+}
+
+.clickable:hover{
+  text-decoration: none;
+}
+.navbar{
+  min-height: 55px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+#myheader {
+    color: #777;
+
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/*.nav>li.active>a {
+text-decoration: none;
+background-color: #eee;
+}*/
+
+/*
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .mob-logo{
+width: 190px   
+padding: 9px 15px;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .mob-name{
+font-size: 16px;
+padding: 9px 15px;
+  }
+}*/
+

@@ -1,0 +1,135 @@
+
+<script>
+
+$(document).ready(function(){
+	$("#current-pointer").animate({top: '55%'}, 5000);
+	$("#potenial-pointer").animate({top: '77%'}, 3000);
+});
+</script>
+
+<div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">Figures</h1>
+		</div>
+		<!-- /.col-lg-12 -->
+	</div>
+	<div>
+		<div class="row" >
+			<div class="col-xs-12" id="bar-chart">
+				<div class="panel panel-default" style="min-width:445px;">
+					<div class="panel-heading">Energy Efficience Rating</div>
+					<div class="panel-body">
+
+						<div class="row" style="height:300px;">
+							<div class="col-xs-8" style="height:100%;">
+								<div>Very energy efficient - lower running costs</div>
+								<div style="margin:3px; height:11%; width:35%; background-color:rgb(0,102,0); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(92-100)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">A</span>
+								</div>
+								<div style="margin:3px; height:11%; width:45%; background-color:rgb(52,153,52); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(81-91)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">B</span>
+								</div>
+								<div style="margin:3px; height:11%; width:55%; background-color:rgb(146,207,81); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(69-80)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">C</span>
+								</div>
+								<div style="margin:3px; height:11%; width:65%; background-color:rgb(255,255,0); font-weight: bold; color: black;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(55-68)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">D</span>
+								</div>
+								<div style="margin:3px; height:11%; width:75%; background-color:rgb(255,191,0); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(39-54)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">E</span>
+								</div>
+								<div style="margin:3px; height:11%; width:85%; background-color:rgb(240,102,34); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(21-38)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">F</span>
+								</div>
+								<div style="margin:3px; height:11%; width:95%; background-color:rgb(212,6,17); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(1-20)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">G</span>
+								</div>
+								<div>Not energy efficient - higher running costs</div>
+							</div>
+							<div class="col-xs-2"  style="margin-top:20px; border-left: 1px solid #a1a1a1;border-right: 1px solid #a1a1a1; height: 90%;"> 
+								<div style="width:100%" class="text-center"><strong>Current</strong></div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(0,102,0,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(92-100)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">A</span>
+								</div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(52,153,52,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(81-91)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">B</span>
+								</div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(146,207,81,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(69-80)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">C</span>
+								</div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(255,255,0,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(55-68)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">D</span>
+								</div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(255,191,0,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(39-54)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">E</span>
+								</div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(240,102,34,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(21-38)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">F</span>
+								</div>
+								<div style="margin:3px; height:11%; width:100%; background-color:rgba(212,6,17,0.2); font-weight: bold; color: white;">
+									<span style="margin-left:10px; height: 100%; line-height: 200%;">
+										(1-20)
+									</span>
+									<span class="pull-right" style="margin-right:10px; height: 100%; line-height: 200%;">G</span>
+								</div>
+								<div id="current-pointer"  style="border: 1px solid black;margin:0 auto; padding:3px; height:11%; width:50%; background-color:rgb(255,191,0); font-weight: bold; color: white;position: absolute; top:0;right: 0;left: 0;">
+									<div style="width: 100%; margin-top:5px;" class="text-center">
+										37
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-2"  style="margin-top:20px; border-right: 1px solid #a1a1a1; height: 90%;"> 
+								<div style="width:100%" class="text-center"><strong>Potenial</strong></div>
+
+								<div id="potenial-pointer" style="margin:0 auto; height:11%; width:50%; background-color:rgb(212,6,17); font-weight: bold; color: white;position: absolute;top:0;right: 0;left: 0;">
+									<div style="width: 100%; margin-top:5px;" class="text-center">
+										19
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
