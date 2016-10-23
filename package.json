@@ -39,7 +39,8 @@
   },
   "scripts": {
     "test": "grunt test",
+    "start": "grunt serve:dist",
     "dist": "grunt serve:dist",
-    "postinstall": "bower install && grunt serve:dist"
+    "postinstall": "bower install"
   }
 }
