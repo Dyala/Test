@@ -121,7 +121,19 @@
   })
   .state('dashboard.reports',{
     templateUrl:'views/reports.html',
-    url:'/reports'
+    url:'/reports',
+    controller:'ReportsCtrl',
+    resolve: {
+      loadMyFiles:function($ocLazyLoad) {
+        return $ocLazyLoad.load({
+          name:'sbAdminApp',
+          files:[
+          'scripts/controllers/reports.js'
+
+          ]
+        })
+      }
+    }
   })
   .state('dashboard.survey',{
     templateUrl:'views/survey.html',
