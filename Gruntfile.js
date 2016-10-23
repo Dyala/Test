@@ -66,7 +66,7 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        port: 9000,
+        port: 8080,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729
@@ -136,7 +136,7 @@ module.exports = function (grunt) {
         files: [{
           dot: true,
           src: [
-            //'.tmp',
+            '.tmp',
             '<%= yeoman.dist %>/{,*/}*',
             '!<%= yeoman.dist %>/.git*'
           ]
@@ -248,7 +248,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          src: '{,*/}*.{png,jpg,jpeg,gif,pdf}',
           dest: '<%= yeoman.dist %>/images'
         }]
       }
@@ -400,7 +400,7 @@ module.exports = function (grunt) {
     'cssmin',
     'ngAnnotate',
     'uglify',
-    'htmlmin'
+    //'htmlmin'
   ]);
 
   grunt.registerTask('default', [
