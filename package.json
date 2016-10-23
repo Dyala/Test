@@ -41,6 +41,6 @@
     "test": "grunt test",
     "start": "./node_modules/grunt-cli/bin/grunt serve",
     "dist": "grunt serve:dist",
-    "postinstall": "bower install && grunt dist"
+    "postinstall": "bower install && grunt serve:dist"
   }
 }
