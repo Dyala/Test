@@ -1,49 +1,129 @@
 <div>
 	<div class="row">
-		<div class="col-lg-12"> 
-			<h1 class="page-header" id="myheader">Section 2: Facility Activities</h1>
+		<div class="col-lg-12">
+			<h1 class="page-header" id="myheader">Section 2: Energy Usage-Buildings</h1>
 		</div>
 		<!-- /.col-lg-12 -->
 	</div>
 
 
 
-
-	<div>
+	<div> 
 		
 		<form>
+			
+			<form>
+				<div class="form-group">
+					<h3><b>What is the number of buildings on the premises?</b></h3>
+					<input type="number" class="form-control"> 
+				</div>
 
+				<div class="form-group">
+					<h3><b>What is the size of each building?</b></h3>
+					<label> Building area: &#40m<sup>2</sup>&#41 </label> 
+					<input type="number" class="form-control"> 
+				</div>
 
+				<div class="form-group">
+					<label> Height: &#40meters&#41 </label> 
+					<input type="number" class="form-control"> 
+				</div>
+				<div class="form-group">
+					<label> Floors: </label> 
+					<input type="number" class="form-control"> 
+				</div>
+			</form>
+
+			<form>
+				<div class="form-group">
+				<h3><b>What is the monthly electricity consumption kWh?</b></h3> 
+					<label> Consumption: (KWh) </label> 
+					<input type="number" class="form-control"> 
+				</div>
+
+				<div class="form-group">
+					<h3><b>What is the monthly electricity cost?</b></h3> 
+					<label> Cost: <sup> *DEWA bill </sup> </label> 
+					<input type="number" class="form-control"> 
+				</div>
+			</form>
 
 
 			<form>
-				<label><h3><b>What is the unit of measure for volume shipped?</b></h3></label>
+				<label><h3><b> Do you have an on-site generator?</b></h3></label>
 				<div class="radio">
-					<label><input type="radio" name="optradio">Cases</label>
+					<label><input type="radio" name="optradio">Yes</label>
 				</div>
 				<div class="radio">
-					<label><input type="radio" name="optradio">cbm</label>
+					<label><input type="radio" name="optradio">No</label>
 				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio">kgs</label>
+			</form>
+
+			<form>
+				<label><h3><b> Which of the following types of fuels do these generators run on?</b></h3></label>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Bioethanol </label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Biodiesel</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Biogas</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Compressed Natural Gas (CNG) </label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Diesel</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Liquefied Petroleum Gas</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Petrol / Gasoline</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">N/A</label>
 				</div>
 
 			</form>
 
 
+			<form>
 			<div class="form-group">
-				<h3><b>What was the volume of goods shipped this month in terms of the unit chosen above? </b></h3>
-				<label> Quantity: </label>
+				<h3><b>What is the quantity of fuel used for the generators? </b></h3>
+				<label> Liters: </label> 
 				<input type="number" class="form-control"> 
 			</div>
+			<div class="form-group">
+				<label> Cost: </label> 
+				<input type="number" class="form-control"> 
+			</div>
+			</form>
 
+			<form>
 
+			<div class="form-group">
+			<div>
+				<label><h3><b>Does the school have a canteen?</b></h3></label>
+				<div class="radio">
+					<label><input type="radio" name="optradio">Yes</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="optradio">No</label>
+				</div>
+			</div>
+				<h3><b>What is the monthly gas consumption? </b></h3>
+				<label> Kg: </label> 
+				<input type="number" class="form-control"> 
+			</div>
+			<div class="form-group">
+				<label> Cost: </label> 
+				<input type="number" class="form-control"> 
+			</div>
+			</form>
 
-
-
-
-
-			<a class="btn btn-danger pull-right" ui-sref="dashboard.section3" style="margin-bottom: 30px" >Submit</a>
+			<a class="btn btn-danger pull-right" ui-sref="dashboard.section3" style="margin-bottom: 30px" onclick="scroll(0,0)" >Submit</a>
 		</form>
 	</div>
 </div>

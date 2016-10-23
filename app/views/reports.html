@@ -8,7 +8,7 @@
             </button>
             <button type="button" class="btn btn-danger btn-circle btn-lg pull-right" style="margin-left: 10px; margin-bottom: 20px;"><i class="glyphicon glyphicon-envelope"></i>
             </button>
-            <button type="button" ng-click="openPdf()" class="btn btn-warning btn-circle btn-lg pull-right" style="margin-left: 10px; margin-bottom: 20px;"><i class="glyphicon glyphicon-print "></i>
+            <button type="button" onclick="window.open('./images/results.pdf');" class="btn btn-warning btn-circle btn-lg pull-right" style="margin-left: 10px; margin-bottom: 20px;"><i class="glyphicon glyphicon-print "></i>
             </button>
         </div>
     </div>
@@ -193,7 +193,7 @@
     <div class="panel panel-default">
         <div class="panel-heading" >
             <h4 class="panel-title">
-                <a class="clickable" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne"> Employee Carbon Efficiency</a>
+                <a class="clickable" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne"> Students Carbon Efficiency</a>
             </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in">
@@ -237,25 +237,13 @@
                     <table class="table table-striped table-bordered table-hover" style="margin-top: 20px">
                         <thead>
                             <tr>
-                                <th  colspan="2">Employee Carbon Efficiency</th>
+                                <th  colspan="2">Students Carbon Efficiency</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Number of employees</td>
+                                <td>Number of students</td>
                                 <td>230</td>
-                            </tr>
-                            <tr>
-                                <td>Office staff</td>
-                                <td>25</td>
-                            </tr>
-                            <tr>
-                                <td>Warehouse staff</td>
-                                <td>110</td>
-                            </tr>
-                            <tr>
-                                <td>Factory workers</td>
-                                <td>95</td>
                             </tr>
                             <tr>
                                 <td>Total carbon emission</td>
