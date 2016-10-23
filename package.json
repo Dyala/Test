@@ -38,8 +38,8 @@
   },
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve",
+    "start": "/node_modules/grunt-cli/bin/grunt serve",
     "dist": "grunt serve:dist",
-    "postinstall": "bower install"
+    "postinstall": "bower install && grunt serve:dist"
   }
 }
