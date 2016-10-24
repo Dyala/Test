@@ -203,6 +203,10 @@
     templateUrl:'views/survey/section7.html',
     url:'/section7'
   })
+  .state('dashboard.section8',{
+    templateUrl:'views/survey/section8.html',
+    url:'/section8'
+  })
   // .state('dashboard.calculations',{
   //   templateUrl:'views/reports/calculations.html',
   //   url:'/calculations'

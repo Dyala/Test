@@ -1,47 +1,31 @@
 <div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h1 class="page-header" id="myheader">Section 4: Energy Usage-Buildings</h1>
+			<h1 class="page-header" id="myheader">Section 4: Energy Usage-Transport</h1>
 		</div>
-		<!-- /.col-lg-12 -->
 	</div>
 
 
 
-	<div> 
+
+	<div>
 		
 		<form>
-
-
+			<form>
 			<div class="form-group">
-				<h4><b>What is the cost and volume in KWh of mains electricity consumed for this month &#40excluding all onsite generation of power&#41 ?</b></h3> 
-				<label> Consumption: (KW) </label> 
+				<h4><b>How many vehicles do you operate in the following categories? </b></h4>
+				<label> Petrol Vehicles: </label> 
 				<input type="number" class="form-control"> 
 			</div>
 
 			<div class="form-group">
-				<label> Cost: <sup> *DEWA bill </sup> </label> 
+				<label> Diesel Vehicles: </label> 
 				<input type="number" class="form-control"> 
 			</div>
-
-
-
-			<form>
-				<label><h4><b> Do you have an on-site generators?</b></h3></label>
-				<div class="radio">
-					<label><input type="radio" name="optradio">Yes</label>
-				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio">No</label>
-				</div>
-
-			</form>
-
-
-
+		</form>
 
 			<form>
-				<label><h4><b> Which of the following types of fuels do these generators run on?</b></h3></label>
+				<label><h4><b>Which of the following fuel types are used by your fleet of vehicles?</b></h4></label>
 				<div class="checkbox">
 					<label><input type="checkbox" value="">Bioethanol </label>
 				</div>
@@ -63,24 +47,40 @@
 				<div class="checkbox">
 					<label><input type="checkbox" value="">Petrol / Gasoline</label>
 				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">N/A</label>
-				</div>
+
 
 			</form>
 
 
 
+			<div class="form-group">
+				<h4><b>What was the volume in liters and cost used to fuel your own fleet or road vehicles in the current month (excluding biodiesel and fuel used in forklifts and other MHE)?</b></h4>
+				<label> Volume of petrol used for Vehicles: </label> 
+				<input type="number" class="form-control"> 
+			</div>
 
 			<div class="form-group">
-				<h4><b>What is the quantity of fuel used for the generators? </b></h3>
-				<label> Liters: </label> 
+				<label> Cost: </label>
 				<input type="number" class="form-control"> 
 			</div>
+
 			<div class="form-group">
-				<label> Cost: </label> 
+				<label> Volume of diesel used for Vehicles: </label> 
 				<input type="number" class="form-control"> 
 			</div>
+
+			<div class="form-group">
+				<label> Cost: </label>
+				<input type="number" class="form-control"> 
+			</div>
+
+
+			<div class="form-group">
+				<label> <h4><b>What was the total distance in km travelled by your fleet? </b></h4> </label> 
+				<input type="number" class="form-control"> 
+			</div>
+
+
 			<a class="btn btn-danger pull-right" ui-sref="dashboard.section5" style="margin-bottom: 30px" onclick="scroll(0,0)">Submit</a>
 		</form>
 	</div>
