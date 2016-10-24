@@ -4,28 +4,13 @@
 			<h1 class="page-header" id="myheader">Section 7: Recycling</h1>
 		</div>
 	</div>
-<!-- 
-Click me: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><br/>
-<div>
-  Show:
-  <div class="check-element animate-show" ng-show="checked">
-    <span class="glyphicon glyphicon-thumbs-up"></span> I show up when your checkbox is checked.
-  </div>
-</div>
-<div>
-  Hide:
-  <div class="check-element animate-show" ng-hide="checked">
-    <span class="glyphicon glyphicon-thumbs-down"></span> I hide when your checkbox is checked.
-  </div>
-</div>
-
- -->
-
-
 
 
 	<form>
 		<label><h4><b> Which of the following categories of waste were recycled in this month?</b></h4></label>
+		<div class="checkbox">
+			<label><input type="checkbox" value="" ng-model="checked3" id="plastic" >Plastic</label>
+		</div>
 		<div class="checkbox">
 			<label><input type="checkbox" value="" ng-model="checked1" id="cardboard" >Cardboard </label>
 		</div>
@@ -35,9 +20,7 @@ Click me: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><
 		<div class="checkbox">
 			<label><input type="checkbox" value="" ng-model="checked2" id="paper" >Paper</label>
 		</div>
-		<div class="checkbox">
-			<label><input type="checkbox" value="" ng-model="checked3" id="plastic" >Plastic</label>
-		</div>
+		
 		<div class="checkbox">
 			<label><input type="checkbox" value="">Foodstuff</label>
 		</div>
@@ -46,81 +29,72 @@ Click me: <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide"><
 		</div>
 	</form>
 
-<div class="check-element animate-show" ng-show="checked3" id="plastic">
-	<form>
-		<label><h4><b>What is the unit of measure for plastic recycling?</b></h4></label>
-		<div class="radio">
-			<label><input type="radio" name="optradio">cbm</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">kg</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">US Tons</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">tonne</label>
-		</div>
+	<div class="check-element animate-show" ng-show="checked3" id="plastic">
+		<form>
+			<label><h4><b>What is the unit of measure for plastic recycling?</b></h4></label>
+			<div class="radio">
+				<label><input type="radio" name="optradio">cbm</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">kg</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">US Tons</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">tonne</label>
+			</div>
 
-		<div class="form-group">
-			<label> <h4><b>What is the volume (in terms of the unit above) of plastic waste was recycled for the current month? </b></h4> </label> 
-			<input type="number" class="form-control"> 
-		</div>
-	</form>
+			<div class="form-group">
+				<label> <h4><b>What is the volume (in terms of the unit above) of plastic waste was recycled for the current month? </b></h4> </label> 
+				<input type="number" class="form-control"> 
+			</div>
+		</form>
 
 	</div>
 
-<div class="check-element animate-show" ng-show="checked1" id="cardboard">
-	<form>
-		<label><h4><b>What is the unit of measure for cardboard recycling?</b></h4></label>
-		<div class="radio">
-			<label><input type="radio" name="optradio">cbm</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">kg</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">US Tons</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">tonne</label>
-		</div>
+	<div class="check-element animate-show" ng-show="checked1" id="cardboard">
+		<form>
+			<label><h4><b>What is the unit of measure for cardboard recycling?</b></h4></label>
+			<div class="radio">
+				<label><input type="radio" name="optradio">cbm</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">kg</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">US Tons</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">tonne</label>
+			</div>
 
-		<div class="form-group">
-			<label> <h4><b>What is the volume (in terms of the unit above) of cardboard waste was recycled for the current month? </b></h4> </label> 
-			<input type="number" class="form-control"> 
-		</div>
-	</form>
-</div>
+			<div class="form-group">
+				<label> <h4><b>What is the volume (in terms of the unit above) of cardboard waste was recycled for the current month? </b></h4> </label> 
+				<input type="number" class="form-control"> 
+			</div>
+		</form>
+	</div>
 
-<div class="check-element animate-show" ng-show="checked2" id="paper">
-	<form>
-		<label><h4><b>What is the unit of measure for paper recycling?</b></h4></label>
-		<div class="radio">
-			<label><input type="radio" name="optradio">cbm</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">US Tons</label>
-		</div>
-		<div class="radio">
-			<label><input type="radio" name="optradio">tonne</label>
-		</div>
+	<div class="check-element animate-show" ng-show="checked2" id="paper">
+		<form>
+			<label><h4><b>What is the unit of measure for paper recycling?</b></h4></label>
+			<div class="radio">
+				<label><input type="radio" name="optradio">cbm</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">US Tons</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">tonne</label>
+			</div>
 
-		<div class="form-group">
-			<label> <h4><b>What is the volume (in terms of the unit above) of paper waste was recycled for the current month? </b></h4> </label> 
-			<input type="number" class="form-control"> 
-		</div>
-	</form>
-</div>
-
-
-
-
-
-
-
-
-
+			<div class="form-group">
+				<label> <h4><b>What is the volume (in terms of the unit above) of paper waste was recycled for the current month? </b></h4> </label> 
+				<input type="number" class="form-control"> 
+			</div>
+		</form>
+	</div>
 
 	<a class="btn btn-danger pull-right" ui-sref="dashboard.section8" style="margin-bottom: 30px" onclick="scroll(0,0)">Submit</a>
 
