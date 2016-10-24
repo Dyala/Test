@@ -1,7 +1,7 @@
 /* Space out content a bit */
-body {
+/*body {
     padding-bottom: 20px;
-}
+}*/
 
 .clickable{
   cursor: pointer;
@@ -35,6 +35,9 @@ a{
 #terms{
   font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
   font-size: 130%;
+}
+#survey{
+  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
 }
 #termsh{
   font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
@@ -122,6 +125,7 @@ a.fa:hover{
 
 #myheader {
     color: #777;
+    font-size: 28px;
 
 }
 
