@@ -1,78 +1,96 @@
-<div>
+<div id="survey">
 	<div class="row">
 		<div class="col-lg-12">
-			<h1 class="page-header" id="myheader">Section 7: Best Practices</h1>
+			<h1 class="page-header" id="myheader">Section 4: Best Practices</h1>
 		</div>
 		<!-- /.col-lg-12 -->
 	</div>
 
-	<div>
-		
+    <div class="row">
+        <div class="col-xs-12 col-lg-6">
 		<form>
-
-
+			<form>
+				<label><h5><b> How sustainably does your school use energy and reduce carbon emissions? Has your school:</b></h5></label>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Switched to CFC or LED lightbulbs? </label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Conducted an energy audit?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Implemented energy conservation measures for Heating-Ventilation-Air-Conditioning (HVAC), lighting, or computers?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Implemented a “Turn it off” campaign with students and staff (lights, printers, screens, copiers, etc)? </label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Purchased energy efficient appliances or equipment?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Installed solar PV panels?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Installed solar hot water?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Switched to biodiesel fuel, natural gas, or hybrid buses?</label>
+				</div>
+			</form>
+			<form>
+				<label><h5><b> How committed is your school to being green? Has your school:</b></h5></label>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Adopted a vision statement, school board policy or resolution? </label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Done environmental audit of school resource use?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Developed an action plan for greening?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Integrated hands-on student activities into curriculum? </label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Implemented a plan for monitoring resource use and progress on action plan?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Created opportunities to celebrate achievements and engage the wider community?</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Established a green team that includes parents, teachers, students, staff, and administrators</label>
+				</div>
+			</form>
 
 			<form>
-				<label><h3><b> Does your site have environmental or energy reduction targets?</b></h3></label>
+				<label><h5><b> Does your school have environmental or energy reduction targets?</b></h5></label>
 				<div class="radio">
 					<label><input type="radio" name="optradio">Yes</label>
 				</div>
 				<div class="radio">
 					<label><input type="radio" name="optradio">No</label>
 				</div>
-
 			</form>
-
-
-
-
-
+			<div class="form-group form-inline">
+				<h5><b>Annual reduction commitment%</b></h5>
+				<input type="number" class="form-control" > 
+			</div>
 			<form>
-				<label><h3><b>How are these reduction targets communicated to employees?</b></h3></label>  <!-- If yes -->
+				<label><h5><b>How are these reduction targets communicated to staff and students?</b></h5></label>  <!-- If yes -->
 				<div class="checkbox">
 					<label><input type="checkbox" value="">By email </label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Not Communicated</label>
+					<label><input type="checkbox" value="">Not communicated</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Through Posters</label>
+					<label><input type="checkbox" value="">Through posters</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Through Staff Briefings</label>
+					<label><input type="checkbox" value="">Through staff briefings</label>
 				</div>
-
 			</form>
-
-
-
-
-			<form>
-				<label><h3><b> Have you incorporated environmental or energy related factors into your site KPIs?</b></h3></label>
-				<div class="radio">
-					<label><input type="radio" name="optradio">Yes</label>
-				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio">No</label>
-				</div>
-
-			</form>
-
-
-			<form>
-				<label><h3><b> Do you have any existing environmental or energy reduction programs underway at your site?</b></h3></label>
-				<div class="radio">
-					<label><input type="radio" name="optradio">Yes</label>
-				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio">No</label>
-				</div>
-
-			</form>
-
-
-
-			<a class="btn btn-danger pull-right" ui-sref="dashboard.reports" style="margin-bottom: 30px" >Submit</a>
+			<a class="btn btn-danger pull-right" ui-sref="dashboard.reports" style="margin-bottom: 30px" onclick="scroll(0,0)" >Submit</a>
 		</form>
 	</div>
+</div>
 </div>

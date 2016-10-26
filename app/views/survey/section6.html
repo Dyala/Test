@@ -1,96 +1,106 @@
 <div id="survey">
 	<div class="row">
 		<div class="col-lg-12">
-			<h1 class="page-header" id="myheader">Section 4: Best Practices</h1>
+			<h1 class="page-header" id="myheader">Section 6: Recycling</h1>
 		</div>
-		<!-- /.col-lg-12 -->
 	</div>
 
-    <div class="row">
+<div class="row">
         <div class="col-xs-12 col-lg-6">
-		<form>
-			<form>
-				<label><h5><b> How sustainably does your school use energy and reduce carbon emissions? Has your school:</b></h5></label>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Switched to CFC or LED lightbulbs? </label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Conducted an energy audit?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Implemented energy conservation measures for Heating-Ventilation-Air-Conditioning (HVAC), lighting, or computers?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Implemented a “Turn it off” campaign with students and staff (lights, printers, screens, copiers, etc)? </label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Purchased energy efficient appliances or equipment?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Installed solar PV panels?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Installed solar hot water?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Switched to biodiesel fuel, natural gas, or hybrid buses?</label>
-				</div>
-			</form>
-			<form>
-				<label><h5><b> How committed is your school to being green? Has your school:</b></h5></label>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Adopted a vision statement, school board policy or resolution? </label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Done environmental audit of school resource use?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Developed an action plan for greening?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Integrated hands-on student activities into curriculum? </label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Implemented a plan for monitoring resource use and progress on action plan?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Created opportunities to celebrate achievements and engage the wider community?</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Established a green team that includes parents, teachers, students, staff, and administrators</label>
-				</div>
-			</form>
+	<form>
+		<label><h5><b> Which of the following categories of waste were recycled in this month?</b></h5></label>
+		<div class="checkbox">
+			<label><input type="checkbox" value="" ng-model="checked3" id="plastic" >Plastic</label>
+		</div>
+		<div class="checkbox">
+			<label><input type="checkbox" value="" ng-model="checked1" id="cardboard" >Cardboard </label>
+		</div>
+		<div class="checkbox">
+			<label><input type="checkbox" value="">Cooking Oil</label>
+		</div>
+		<div class="checkbox">
+			<label><input type="checkbox" value="" ng-model="checked2" id="paper" >Paper</label>
+		</div>
+		
+		<div class="checkbox">
+			<label><input type="checkbox" value="">Foodstuff</label>
+		</div>
+		<div class="checkbox">
+			<label><input type="checkbox" value="">Other</label>
+		</div>
+	</form>
 
-			<form>
-				<label><h5><b> Does your school have environmental or energy reduction targets?</b></h5></label>
-				<div class="radio">
-					<label><input type="radio" name="optradio">Yes</label>
-				</div>
-				<div class="radio">
-					<label><input type="radio" name="optradio">No</label>
-				</div>
-			</form>
-			<div class="form-group form-inline">
-				<h5><b>Annual reduction commitment%</b></h5>
-				<input type="number" class="form-control" > 
+	<div class="check-element animate-show" ng-show="checked3" id="plastic">
+		<form>
+			<label><h5><b>What is the unit of measurement for plastic recycling?</b></h5></label>
+			<div class="radio">
+				<label><input type="radio" name="optradio">cbm</label>
 			</div>
-			<form>
-				<label><h5><b>How are these reduction targets communicated to staff and students?</b></h5></label>  <!-- If yes -->
-				<div class="checkbox">
-					<label><input type="checkbox" value="">By email </label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Not communicated</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Through posters</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Through staff briefings</label>
-				</div>
-			</form>
-			<a class="btn btn-danger pull-right" ui-sref="dashboard.reports" style="margin-bottom: 30px" onclick="scroll(0,0)" >Submit</a>
+			<div class="radio">
+				<label><input type="radio" name="optradio">kg</label>
+			</div>
+			<div class="radio">
+			<label><input type="radio" name="optradio">US tons</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">tonne</label>
+			</div>
+
+			<div class="form-group">
+				<label> <h5><b>What is the volume (in terms of the unit above) of plastic waste that was recycled for the current month? </b></h5> </label> 
+				<input type="number" class="form-control"> 
+			</div>
+		</form>
+
+	</div>
+
+	<div class="check-element animate-show" ng-show="checked1" id="cardboard">
+		<form>
+			<label><h5><b>What is the unit of measurement for cardboard recycling?</b></h5></label>
+			<div class="radio">
+				<label><input type="radio" name="optradio">cbm</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">kg</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">US tons</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">tonne</label>
+			</div>
+
+			<div class="form-group">
+				<label> <h5><b>What is the volume (in terms of the unit above) of cardboard waste that was recycled for the current month? </b></h5> </label> 
+				<input type="number" class="form-control"> 
+			</div>
 		</form>
 	</div>
+
+	<div class="check-element animate-show" ng-show="checked2" id="paper">
+		<form>
+			<label><h5><b>What is the unit of measurement for paper recycling?</b></h5></label>
+			<div class="radio">
+				<label><input type="radio" name="optradio">cbm</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">US tons</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="optradio">tonne</label>
+			</div>
+
+			<div class="form-group">
+				<label> <h5><b>What is the volume (in terms of the unit above) of paper waste that was recycled for the current month? </b></h5> </label> 
+				<input type="number" class="form-control"> 
+			</div>
+		</form>
+	</div>
+
+	<a class="btn btn-danger pull-right" ui-sref="dashboard.section7" style="margin-bottom: 30px" onclick="scroll(0,0)">Submit</a>
+
+
+
+</div>
 </div>
 </div>
