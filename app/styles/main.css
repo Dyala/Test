@@ -1,7 +1,7 @@
 /* Space out content a bit */
-body {
+/*body {
     padding-bottom: 20px;
-}
+}*/
 
 .clickable{
   cursor: pointer;
@@ -36,6 +36,9 @@ a{
   font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
   font-size: 130%;
 }
+#survey{
+  font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+}
 #termsh{
   font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
   color: #179b7f;
@@ -68,7 +71,7 @@ li#surveys.active>a{
  #side-menu li.active{
   color: #d9534f !important; 
   font-weight: bold;
-  font-size: 110%;
+  font-size: 100%;
   border-right: solid #d9534f 5px;
 }
 #side-menu a:focus, #side-menu a:active{
@@ -122,6 +125,7 @@ a.fa:hover{
 
 #myheader {
     color: #777;
+    font-size: 21px;
 
 }
 
