@@ -10,32 +10,35 @@
 			<form>
 				<label><h5><b> Which of the following categories of waste were recycled in this month?</b></h5></label>
 				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked3"  >Plastic</label>
+					<label><input type="checkbox" value="" ng-model="checked1"  >Plastic</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked1"  >Cardboard </label>
+					<label><input type="checkbox" value="" ng-model="checked2"  >Cardboard </label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked2" >Paper</label>
+					<label><input type="checkbox" value="" ng-model="checked3" >Paper</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Cooking Oil</label>
+					<label><input type="checkbox" value="" ng-model="checked4">Cooking Oil</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Foodstuff</label>
+					<label><input type="checkbox" value="" ng-model="checked5" >Foodstuff</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Metal</label>
+					<label><input type="checkbox" value="" ng-model="checked6">Metal</label>
 				</div>
 				<div class="checkbox">
-					<label><input type="checkbox" value="">Glass</label>
+					<label><input type="checkbox" value="" ng-model="checked7">Glass</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" value="" ng-model="checked8">Wood</label>
 				</div>
 				<div class="checkbox">
 					<label><input type="checkbox" value="">Other</label>
 				</div>
 			</form>
 
-			<div class="check-element animate-show" ng-show="checked3">
+			<div class="check-element animate-show" ng-show="checked1">
 				<form>
 					<div class="form-group">
 						<div class="form-group" style="display: inline-block;">
@@ -56,21 +59,8 @@
 
 			</div>
 
-			<div class="check-element animate-show" ng-show="checked1">
+			<div class="check-element animate-show" ng-show="checked2">
 				<form>
-					<!-- <label><h5><b>What is the unit of measurement for cardboard recycling?</b></h5></label>
-					<div class="radio">
-						<label><input type="radio" name="optradio">m<sup>3</sup></label>
-					</div>
-					<div class="radio">
-						<label><input type="radio" name="optradio">kg</label>
-					</div>
-					<div class="radio">
-						<label><input type="radio" name="optradio">US tons</label>
-					</div>
-					<div class="radio">
-						<label><input type="radio" name="optradio">tonne</label>
-					</div> -->
 
 					<div class="form-group">
 						<div class="form-group" style="display: inline-block;">
@@ -90,10 +80,7 @@
 				</form>
 			</div>
 
-
-
-
-			<div class="check-element animate-show" ng-show="checked2" id="paper">
+			<div class="check-element animate-show" ng-show="checked3">
 				<form>
 					<div class="form-group">
 						<div class="form-group" style="display: inline-block;">
@@ -112,6 +99,105 @@
 					</div>
 				</form>
 			</div>
+
+			<div class="check-element animate-show" ng-show="checked4">
+				<form>
+					<div class="form-group">
+						<div class="form-group" style="display: inline-block;">
+							<label> <h5><b>What is the volume of cooking oil waste that was recycled for the current month? </b></h5> </label> 
+							<input type="number" class="form-control"> 
+						</div>
+						<div class="form-group" style="display:inline-block;">
+						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
+							<select class="form-control" id="sel1">
+								<option>m<sup>3</sup></option>
+								<option>kg</option>
+								<option>US tons</option>
+								<option>tonne</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="check-element animate-show" ng-show="checked5">
+				<form>
+					<div class="form-group">
+						<div class="form-group" style="display: inline-block;">
+							<label> <h5><b>What is the volume of food waste that was recycled for the current month? </b></h5> </label> 
+							<input type="number" class="form-control"> 
+						</div>
+						<div class="form-group" style="display:inline-block;">
+						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
+							<select class="form-control" id="sel1">
+								<option>m<sup>3</sup></option>
+								<option>litre</option>
+								<option>US tons</option>
+								<option>tonne</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="check-element animate-show" ng-show="checked6">
+				<form>
+					<div class="form-group">
+						<div class="form-group" style="display: inline-block;">
+							<label> <h5><b>What is the volume of metal waste that was recycled for the current month? </b></h5> </label> 
+							<input type="number" class="form-control"> 
+						</div>
+						<div class="form-group" style="display:inline-block;">
+						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
+							<select class="form-control" id="sel1">
+								<option>m<sup>3</sup></option>
+								<option>kg</option>
+								<option>US tons</option>
+								<option>tonne</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="check-element animate-show" ng-show="checked7">
+				<form>
+					<div class="form-group">
+						<div class="form-group" style="display: inline-block;">
+							<label> <h5><b>What is the volume of glass waste that was recycled for the current month? </b></h5> </label> 
+							<input type="number" class="form-control"> 
+						</div>
+						<div class="form-group" style="display:inline-block;">
+						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
+							<select class="form-control" id="sel1">
+								<option>m<sup>3</sup></option>
+								<option>kg</option>
+								<option>US tons</option>
+								<option>tonne</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="check-element animate-show" ng-show="checked8">
+				<form>
+					<div class="form-group">
+						<div class="form-group" style="display: inline-block;">
+							<label> <h5><b>What is the volume of wood waste that was recycled for the current month? </b></h5> </label> 
+							<input type="number" class="form-control"> 
+						</div>
+						<div class="form-group" style="display:inline-block;">
+						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
+							<select class="form-control" id="sel1">
+								<option>m<sup>3</sup></option>
+								<option>kg</option>
+								<option>US tons</option>
+								<option>tonne</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+
 
 			<a class="btn btn-danger pull-right" ui-sref="dashboard.section7" style="margin-bottom: 30px" onclick="scroll(0,0)">Submit</a>
 
