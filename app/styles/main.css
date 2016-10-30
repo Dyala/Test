@@ -130,6 +130,10 @@ a.fa:hover{
 
 }
 
+.no-margin{
+      margin-bottom: 0 !important;
+    }
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -183,6 +187,15 @@ a.fa:hover{
     border-bottom: 0;
   }
 }
+
+@media only screen and (max-width: 1751px) {
+  @media only screen and (min-width: 991px) {
+    .unit{
+      margin-top: 15px;
+    }
+  }
+}
+
 
 /*.nav>li.active>a {
 text-decoration: none;

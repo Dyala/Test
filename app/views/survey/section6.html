@@ -5,204 +5,389 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="col-xs-12 col-lg-6">
-			<form>
-				<label><h5><b> Which of the following categories of waste were recycled in this month?</b></h5></label>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked1"  >Plastic</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked2"  >Cardboard </label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked3" >Paper</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked4">Cooking Oil</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked5" >Foodstuff</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked6">Metal</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked7">Glass</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="" ng-model="checked8">Wood</label>
-				</div>
-				<div class="checkbox">
-					<label><input type="checkbox" value="">Other</label>
-				</div>
-			</form>
 
-			<div class="check-element animate-show" ng-show="checked1">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of plastic waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
-
+<div class="row">
+	<div class="col-xs-12 col-lg-8">
+		<form>
+			<label><h5><b> Which of the following categories of waste were recycled in this month?</b></h5></label>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked1"  >Plastic</label>
 			</div>
-
-			<div class="check-element animate-show" ng-show="checked2">
-				<form>
-
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of cardboard waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked2"  >Cardboard </label>
 			</div>
-
-			<div class="check-element animate-show" ng-show="checked3">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of paper waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked3" >Paper</label>
 			</div>
-
-			<div class="check-element animate-show" ng-show="checked4">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of cooking oil waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked4">Cooking Oil</label>
 			</div>
-
-			<div class="check-element animate-show" ng-show="checked5">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of food waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>litre</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked5" >Foodstuff</label>
 			</div>
-
-			<div class="check-element animate-show" ng-show="checked6">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of metal waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked6">Metal</label>
 			</div>
-			<div class="check-element animate-show" ng-show="checked7">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of glass waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked7">Glass</label>
 			</div>
-			<div class="check-element animate-show" ng-show="checked8">
-				<form>
-					<div class="form-group">
-						<div class="form-group" style="display: inline-block;">
-							<label> <h5><b>What is the volume of wood waste that was recycled for the current month? </b></h5> </label> 
-							<input type="number" class="form-control"> 
-						</div>
-						<div class="form-group" style="display:inline-block;">
-						<label for="sel1" class="pull-right" style="margin-right: 10px;">Unit:</label>
-							<select class="form-control" id="sel1">
-								<option>m<sup>3</sup></option>
-								<option>kg</option>
-								<option>US tons</option>
-								<option>tonne</option>
-							</select>
-						</div>
-					</div>
-				</form>
+			<div class="checkbox">
+				<label><input type="checkbox" value="" ng-model="checked8">Wood</label>
 			</div>
+			<div class="checkbox">
+				<label><input type="checkbox" value="">Other</label>
+			</div>
+		</form>
 
 
-			<a class="btn btn-danger pull-right" ui-sref="dashboard.section7" style="margin-bottom: 30px" onclick="scroll(0,0)">Submit</a>
-
-
-
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked1">
+			<div class="row">
+				<div class="form-group col-xs-12"> 
+					<label> <h5><b>What is the volume of plastic waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
 		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked1">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of plastic waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked2">
+			<div class="row">
+				<div class="form-group col-xs-12" > 
+					<label> <h5><b>What is the volume of cardboard waste that was recycled for the current month? </b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked2">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of cardboard waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked3">
+			<div class="row">
+				<div class="form-group col-xs-12" > 
+					<label> <h5><b>What is the volume of paper waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12" class="mypad">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked3">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of paper waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked4">
+			<div class="row">
+				<div class="form-group col-xs-12" > 
+					<label> <h5><b>What is the volume of cooking oil waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12" class="mypad">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>litre</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked4">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of cooking oil waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>litre</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked5">
+			<div class="row">
+				<div class="form-group col-xs-12" > 
+					<label> <h5><b>What is the volume of food waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12" class="mypad">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked5">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of food waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked6">
+			<div class="row">
+				<div class="form-group col-lg-8 col-md-8 col-xs-12" > 
+					<label> <h5><b>What is the volume of metal waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12" class="mypad">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked6">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of metal waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked7">
+			<div class="row">
+				<div class="form-group col-xs-12" > 
+					<label> <h5><b>What is the volume of glass waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12" class="mypad">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked7">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of glass waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show visible-xs visible-sm" ng-show="checked8">
+			<div class="row">
+				<div class="form-group col-xs-12" > 
+					<label> <h5><b>What is the volume of wood waste that was recycled for the current month?</b></h5> </label> 
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-xs-12" class="mypad">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+					<select class="form-control unit" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="check-element animate-show hidden-xs hidden-sm" ng-show="checked8">
+			<!-- labels row -->
+			<div class="row">
+				<div class="form-group col-md-8 no-margin"> 
+					<label> <h5><b>What is the volume of wood waste that was recycled for the current month?</b></h5> </label>
+				</div>
+				<div class="form-group col-md-4 no-margin">
+					<label for="sel1"><h5><b>Unit:</b></h5></label>
+				</div>
+			</div>
+			<!-- inputs row -->
+			<div class="row">
+				<div class="form-group col-md-8">
+					<input type="number" class="form-control" placeholder="Volume">
+				</div>
+				<div class="form-group col-md-4">
+					<select class="form-control" id="sel1">
+						<option>m&#179</option>
+						<option>kg</option>
+						<option>US tons</option>
+						<option>tonne</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+
+		<a class="btn btn-danger pull-right" ui-sref="dashboard.section7" style="margin-bottom: 30px" onclick="scroll(0,0)">Submit</a>
+
+
+
 	</div>
+</div>
 </div>
